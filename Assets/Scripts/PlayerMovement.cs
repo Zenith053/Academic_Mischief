@@ -141,7 +141,11 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log(score);
         alive = false;
+<<<<<<< Updated upstream
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+=======
+        SceneManager.LoadScene("FallDeath");
+>>>>>>> Stashed changes
 
     }
     public void Finish()
